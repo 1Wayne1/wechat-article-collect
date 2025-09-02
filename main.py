@@ -61,7 +61,7 @@ def main():
                 # 显示统计信息
                 stats = []
                 if result.get("account_info"):
-                    account_name = result["account_info"].get("nick_name", "Unknown")
+                    account_name = result["account_info"].get("nickname", "Unknown")
                     stats.append(f"公众号: {account_name}")
                 
                 if result.get("all_articles"):

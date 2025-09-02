@@ -51,8 +51,8 @@ def create_workflow():
     
     # 编译工作流
     app = workflow.compile()
-    mermaid_code = app.get_graph().draw_mermaid()
-    print(mermaid_code)
+    # mermaid_code = app.get_graph().draw_mermaid()
+    # print(mermaid_code)
     
     return app
 
